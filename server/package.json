@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "babel-node src/index.js",
-    "start": "node distribution/index.js",
+    "start": "node b2b/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d distribution",
-    "serve": "node distribution/index.js"
+    "build": "babel src -d b2b",
+    "serve": "node b2b/index.js"
   },
   "author": "",
   "license": "ISC",

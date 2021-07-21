@@ -39,8 +39,3 @@ For running the Back-end server
 `npm install`
 
 `npm run dev`
-
-## Go live
-
-Please access to this url:
-[https://ancient-wave-38264.herokuapp.com/](https://ancient-wave-38264.herokuapp.com/)
