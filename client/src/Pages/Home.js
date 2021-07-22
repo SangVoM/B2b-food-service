@@ -49,6 +49,7 @@ const Home = () => {
                     itemImage= {elem.image}
                     itemPrice={elem.price}
                     itemQuantity={elem.quantity}
+                    itemCodeCategory={elem.code_category}
                   />
                 );
               })}

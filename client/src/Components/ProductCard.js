@@ -82,7 +82,8 @@ const ProductCard = (props) => {
                   itemName: props.itemName,
                   itemPrice: props.itemPrice,
                   itemDescription: props.itemDescription,
-                  itemQuantity: quantity || 1
+                  itemQuantity: quantity || 1,
+                  itemCodeCategory: props.itemCodeCategory
                 })
               }
               type='primary'

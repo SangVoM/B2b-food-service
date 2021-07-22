@@ -19,9 +19,9 @@ const MenuCategory = () => {
                     <Menu.Item key='all'>All Product</Menu.Item>
                 </Menu.ItemGroup>
                 { listCategory.map(item => (
-                    <Menu.ItemGroup key={item._id} title={item.name}>
+                    <Menu.ItemGroup key={item._id + 1} title={item.name}>
                         {item.products.map(el => (
-                            <Menu.Item key={el._id}>{el.name}</Menu.Item>
+                            <Menu.Item key={item._id}>{el.name}</Menu.Item>
                         ))}
                     </Menu.ItemGroup>
                 )) }
