@@ -30,7 +30,7 @@ For running the front-end application
 
 `npm install`
 
-`npm run dev`
+`npm run start`
 
 For running the Back-end server
 
